@@ -14,6 +14,10 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
+.card:hover {
+  transform: translateY(-5px); /* Move the card up slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 1); /* Add a stronger shadow on hover */
+}
 .card img {
   max-width: 100%;
   height: auto;
@@ -40,7 +44,8 @@
   cursor: pointer;
 }
 .card button:hover {
-  background-color: #0056b3;
+  transform: translateY(-5px); /* Move the card up slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
 }
 .row {
   display: flex;
@@ -101,6 +106,56 @@
     margin: 10px 0;
   }
 }
+.card-content {
+  padding: 20px;
+  background-color: #726a6a; /* Background color for the card content */
+}
+
+.card-content .tech-stack {
+  animation: fadeInUp 1s ease forwards; /* Fade in animation */
+}
+
+.card-content .tech-item {
+  opacity: 0; /* Initially hide the items */
+  animation: fadeIn 1s ease forwards; /* Fade in animation */
+}
+
+.card-content h2 {
+  margin-top: 0;
+  color: #e8eaed; /* Text color for headings */
+}
+
+.card-content h3 {
+  margin-top: 20px;
+  color: #e5e8ea; /* Text color for subheadings */
+}
+
+.card-content p {
+  margin-bottom: 0;
+  color: #f5f8f9; /* Text color for paragraphs */
+}
+
+/* Keyframes for animations */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px); /* Start slightly below */
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .footer {
   background-color: #333;
   color: #fff;
@@ -140,4 +195,9 @@
 .footer-nav li a:hover {
   color: #ffd700;
 }
+
+
+
+
+
 
