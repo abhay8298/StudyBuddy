@@ -7,7 +7,7 @@
 .card {
   width: 460px;
   height: auto;
-  background-color: #726a6a;
+  background-color: #ACE2E1;
   margin: 10px;
   padding: 10px; /* Adjust padding as needed */
   border-radius: 5px;
@@ -29,7 +29,7 @@
   margin-top: 5px;
   margin-bottom: 10px;
   padding: 10px;
-  color: #fff;
+  color: #010000;
   font-size: x-large;
 }
 
@@ -37,11 +37,12 @@
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 5px 10px;
-  background-color: #333;
-  color: white;
+  background-color: #F7EEDD;
+  color: rgb(8, 8, 8);
   border: none;
   border-radius: 3px;
   cursor: pointer;
+  font-size: 16px;
 }
 .card button:hover {
   transform: translateY(-5px); /* Move the card up slightly on hover */
@@ -51,8 +52,7 @@
   display: flex;
 }
 .header {
-  background-color: #333;
-  color: #fff;
+  background-color: #41C9E2;
   padding: 20px;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -61,7 +61,8 @@
 .header h1 {
   margin: 0;
   font-family: "Arial", sans-serif;
-  font-size: 36px;
+  font-size: 40px;
+  color: #000000;
 }
 
 .navbar {
@@ -85,9 +86,9 @@
 }
 
 .navbar ul li a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   transition: color 0.3s ease; /* Smooth color transition */
 }
 
@@ -105,34 +106,6 @@
     display: block;
     margin: 10px 0;
   }
-}
-.card-content {
-  padding: 20px;
-  background-color: #726a6a; /* Background color for the card content */
-}
-
-.card-content .tech-stack {
-  animation: fadeInUp 1s ease forwards; /* Fade in animation */
-}
-
-.card-content .tech-item {
-  opacity: 0; /* Initially hide the items */
-  animation: fadeIn 1s ease forwards; /* Fade in animation */
-}
-
-.card-content h2 {
-  margin-top: 0;
-  color: #e8eaed; /* Text color for headings */
-}
-
-.card-content h3 {
-  margin-top: 20px;
-  color: #e5e8ea; /* Text color for subheadings */
-}
-
-.card-content p {
-  margin-bottom: 0;
-  color: #f5f8f9; /* Text color for paragraphs */
 }
 
 /* Keyframes for animations */
@@ -157,8 +130,8 @@
 }
 
 .footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #41C9E2;
+  color: #000000;
   padding: 20px 0;
   text-align: center;
 }
@@ -170,6 +143,8 @@
 
 .footer p {
   margin: 0;
+  color: #000000;
+  font-size: 20px;
 }
 
 .footer-nav {
@@ -188,13 +163,18 @@
 }
 
 .footer-nav li a {
-  color: #fff;
+  font-size: 18px;
+  color: #100f0f;
   text-decoration: none;
 }
 
 .footer-nav li a:hover {
   color: #ffd700;
 }
+
+
+
+
 
 
 
